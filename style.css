@@ -1,0 +1,213 @@
+*{
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+nav li a{
+    list-style: none;
+    display: inline;
+    margin: 32px;
+    color: #000000;
+    text-decoration: none;
+}
+/* nav li button{
+    margin-right: 346px;
+} */
+
+header{
+    background-color: #FFFFFF;
+    /* background-color: red; */
+    padding-top: 8px;
+}
+.btn {
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+nav{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 120px 16px 120px;
+    gap: 32px;
+
+}
+.logo img{
+    width: 139px;
+    height: 60px;
+}
+.menu a{
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+    text-align: center;
+    
+}
+#hero{
+    margin: 0;
+    text-align: center;
+    background-image: url(./assets/hero-bg.png);
+    width: 100%;
+    height: 674px;
+}
+#hero .point h6{
+    padding-top: 123px;
+    padding-bottom: 16px;
+    color: #469165;
+    font-size: 16px;
+    font-style: Medium;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#hero .point .titl{
+    color: #FFFFFF;
+    padding-bottom: 16px;
+    height: 167px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+#hero .point .titl2{
+    color: #30B868;
+}
+#hero .point p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-top: 16px;
+
+}
+#hero .btn2{
+    padding-top: 32px;
+    /* padding: 12px 16px 12px 16px; */
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+#hero .btn3{
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 198px;
+    height: 52px;
+    padding: 12px 16px 12px 16px;
+}
+
+.content .heding{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    
+}
+.content p{
+    text-align: center;
+    padding-top: 16px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #627382;
+}
+.card{
+    display: flex;
+    gap: 24px;
+    justify-content: center;    
+}
+.card-box{
+    background: #FFFFFF;
+    width: 322px;
+    width: 300px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    margin-top: 44px;
+}
+.icon-circle{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+
+
+    
+}
+.card h3{
+    color: #001931;
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.card p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px ;
+    font-weight: 400;
+}
+.pp{
+    padding: 120px;
+}
+.brain{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.brain-content h6{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+.brain-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  /* padding-bottom: 20px; */
+  line-height: auto;
+}
+.brain-content p{
+    padding-top: 16px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.brain-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #001931;
+}
+.bg-color{
+    background-color: #F95555;
+}
